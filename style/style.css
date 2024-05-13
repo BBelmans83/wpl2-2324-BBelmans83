@@ -1,0 +1,225 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cute Font', sans-serif;
+    box-sizing: border-box;
+}
+
+.hero {
+    min-height: 200px;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../assets/hero.png) no-repeat center center;
+    height: 35%;
+    background-size: cover;
+    position: relative;
+}
+h1 {
+    font-size: 100px;
+    color: #DD1309;
+    font-weight: lighter;
+}
+.hero-text {
+    text-align: center;
+
+
+}
+
+.w-100 {
+    width: 100%;
+}
+.h-100 {
+    height: 100%;
+}
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.align-items-end {
+}
+.align-items-center {
+    align-items: center;
+}
+.my-2 {
+    margin: 2rem 0;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.pt-2 {
+    padding-top: 2rem;
+}
+.pt-1 {
+    padding-top: 1rem;
+
+}
+.pt-4 {
+    padding-top: 4rem;
+
+}
+.flex-column {
+    flex-direction: column;
+}
+
+
+.mobile{
+    display: none;
+}
+
+
+header h1 {
+    color: #DD1309;
+}
+
+
+
+
+
+.icons {
+    height: 30px;
+    width: 30px;
+}
+
+.pdf {
+    margin-bottom: 30px;
+}
+
+.pdf a {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+.pdf img {
+    height: 50px;
+}
+
+.pdf h5 {
+    padding-left: 15px;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: left;
+    line-height: 18px;
+}
+.box-content {
+    max-width: 265px;
+}
+.box img {
+    width: 100%;
+}
+
+.boxs h3 {
+    color: #DD1309;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.icon {
+    height: 30px;
+    width: 29px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.image-container img {
+    max-width: 30%;
+    height: auto;
+}
+.alleWerkenContainer img {
+    max-width: 30%;
+    max-height: 30%;
+}
+
+
+.text-danger{
+    color: #DD1005;
+}
+
+/*main style*/
+.tech-main{
+    width: 100%;
+
+}
+.tech-main .content-section{
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+
+header{
+    background-image: url('../assets/hero.png');
+    background-size: cover;
+    background-position: center;
+    height: 205px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 7px 3px #0000001f;
+    z-index: 2;
+    position: relative;
+
+}
+
+.tech-main .first-side {
+    width: 69%;
+}
+.tech-main  .third-side{
+    width: 30%;
+    padding-left: 20px;
+}
+.tech-main .profile-img{
+    width: auto;
+    height: 200px;
+    margin-top: 25px;
+}
+.tech-main .container{
+    max-width: 765px;
+    margin: 0 auto;
+
+}
+.tech-main .project-type label{
+    font-size: 22px;
+}
+.tech-main .project-type select{
+    width: 100%;
+    font-size: 22px;
+}
+.tech-main .second-side{
+    margin-left: 25px;
+}
+.tech-main .second-side p{
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.tech-all-werk-heading h2{
+    font-size: 25px;
+}
+.tech-main .tech-get-all-werk {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.tech-main .tech-get-all-werk .individueleWerkenContainer{
+    width: 30%;
+    height: 165px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.tech-main .tech-get-all-werk .individueleWerkenContainer img{
+    width: 100%;
+    height: 165px;
+    object-fit: cover;
+}
+.tech-main .tech-get-all-werk .individueleWerkenContainer h3{
+    text-align: center;
+    font-size: 28px;
+}
+

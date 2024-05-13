@@ -1,0 +1,103 @@
+@media screen and (max-width:1168px){
+    .tech-main .container{
+        padding: 0 20px;
+    }
+
+@media screen and (max-width:768px){
+
+    .tech-main .container{
+        padding: 0 30px;
+    }
+}
+@media screen and (max-width:668px){
+    .tech-main .first-side{
+        width: 100%;
+
+    }
+    .tech-main .third-side{
+        width: 100%;
+        padding-left: 0;
+
+    }
+    .tech-main .third-side > div{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .tech-main .third-side .pdf{
+        width: 33%;
+    }
+    .tech-main .third-side .pdf a{
+        flex-direction: column;
+    }
+    .tech-main .third-side .pdf h5{
+        padding-left: 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:516px){
+    .tech-main .tech-get-all-werk .individueleWerkenContainer{
+        width: 46%;
+        height: 205px;
+    }
+    .tech-main .tech-get-all-werk .individueleWerkenContainer img{
+        height: 205px;
+        object-fit: contain;
+    }
+}
+@media screen and (max-width: 468px){
+    .tech-main .hero-text{
+        font-size: 62px;
+    }
+    .tech-main .container > div{
+        position: relative;
+    }
+    .tech-main .content-section{
+        padding-top: 10px;
+    }
+    .tech-main .first-side{
+        flex-wrap: wrap;
+    }
+    .tech-main .first-side div{
+        width: 100%;
+    }
+    .tech-main .profile-img{
+        margin-top: 0;
+    }
+    .tech-main .first-side .project-type{
+        position: absolute;
+        bottom: -6px;
+    }
+    .tech-main .first-side .project-type label{
+        display: none;
+    }
+    .tech-main .first-side .project-type{
+        width: fit-content;
+    }
+    .tech-main .first-side > div{
+        text-align: center;
+    }
+    .tech-main .second-side p{
+        text-align: left;
+    }
+    .tech-main .second-side{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width:392px){
+    .tech-main .container{
+        padding: 20px;
+    }
+    header{
+        height: 160px;
+    }
+    .tech-main .second-side p{
+        font-size: 21px;
+        line-height: 30px;
+    }
+    .tech-main .tech-get-all-werk .individueleWerkenContainer{
+        width: 100%;
+    }
+
+}}
