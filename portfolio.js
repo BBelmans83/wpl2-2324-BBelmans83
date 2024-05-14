@@ -29,12 +29,122 @@ const werken = [
         imgPath: 'pho07.png'
     },{
         werk: 'MockUp',
+        werk: 'Social post',
         type: 'Photoshop',
         imgPath: 'pho08.png'
     },{
         werk: 'MockUp',
+        werk: 'Social post',
         type: 'Photoshop',
         imgPath: 'pho09.png'
+    },{
+        werk: 'MockUp',
+        type: 'Photoshop',
+        imgPath: 'pho10.png'
+    },{
+        werk: 'Social post',
+        type: 'Photoshop',
+        imgPath: 'pho11.png'
+    },{
+        werk: 'Social post',
+        type: 'Photoshop',
+        imgPath: 'pho12.png'
+    },{
+        werk: 'Social post',
+        type: 'Photoshop',
+        imgPath: 'pho13.png'
+    },{
+        werk: 'MockUp',
+        type: 'Photoshop',
+        imgPath: 'pho14.png'
+    },{
+        werk: 'MockUp',
+        type: 'Photoshop',
+        imgPath: 'pho15.png'
+    },{
+        werk: 'MockUp',
+        type: 'Photoshop',
+        imgPath: 'pho16.png'
+    },{
+        werk: 'MockUp',
+        type: 'Photoshop',
+        imgPath: 'pho17.png'
+    },{
+        werk: 'Social post',
+        type: 'Photoshop',
+        imgPath: 'pho18.png'
+    },{
+        werk: 'Social post',
+        type: 'Photoshop',
+        imgPath: 'pho19.png'
+    },{
+        werk: 'Social post',
+        type: 'Photoshop',
+        imgPath: 'pho20.png'
+    },{
+        werk: 'Social post',
+        type: 'Photoshop',
+        imgPath: 'pho21.png'
+    },{
+        werk: 'Social post',
+        type: 'Photoshop',
+        imgPath: 'pho22.png'
+    },{
+        werk: 'Social post',
+        type: 'Photoshop',
+        imgPath: 'pho23.png'
+    },{
+        werk: 'Social post',
+        type: 'Photoshop',
+        imgPath: 'pho24.png'
+    },{
+        werk: 'Social post',
+        type: 'Photoshop',
+        imgPath: 'pho25.png'
+    },{
+        werk: 'Social post',
+        type: 'Photoshop',
+        imgPath: 'pho26.png'
+    },{
+        werk: 'Social post',
+        type: 'Photoshop',
+        imgPath: 'pho27.png'
+    },{
+        werk: 'Social post',
+        type: 'Photoshop',
+        imgPath: 'pho28.png'
+    },{
+        werk: 'Social post',
+        type: 'Photoshop',
+        imgPath: 'pho29.png'
+    },{
+        werk: 'Social post',
+        type: 'Photoshop',
+        imgPath: 'pho30.png'
+    },{
+        werk: 'Social post',
+        type: 'Photoshop',
+        imgPath: 'pho31.png'
+    },{
+        werk: 'Social post',
+        type: 'Photoshop',
+        imgPath: 'pho32.png'
+    },{
+        werk: 'Social post',
+        type: 'Photoshop',
+        imgPath: 'pho33.png'
+    },{
+        werk: 'Social post',
+        type: 'Photoshop',
+        imgPath: 'pho34.png'
+    },{
+        werk: 'Social post',
+        type: 'Photoshop',
+        imgPath: 'pho35.png'
+    },{
+        werk: 'MockUp',
+        type: 'Photoshop',
+        imgPath: 'pho36.png'
     },{
         werk: 'Werkstuk 1',
         type: 'Illustrator',
@@ -118,15 +228,11 @@ const werken = [
     },{
         werk: 'Werkstuk 22',
         type: 'Illustrator',
-        imgPath: 'ill21.png'
+        imgPath: 'ill22.png'
     },{
         werk: 'Werkstuk 23',
         type: 'Illustrator',
         imgPath: 'ill23.png'
-    },{
-        werk: 'Werkstuk 24',
-        type: 'Illustrator',
-        imgPath: 'ill24.png'
     },{
         werk: 'Werkstuk 7',
         type: 'Divers',
