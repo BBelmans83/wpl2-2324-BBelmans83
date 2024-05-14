@@ -92,15 +92,15 @@ header h1 {
 }
 
 .pdf img {
-    height: 50px;
+    height: 25px;
 }
 
 .pdf h5 {
     padding-left: 15px;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 20px;
     text-align: left;
-    line-height: 18px;
+    line-height: 15px;
 }
 .box-content {
     max-width: 265px;
