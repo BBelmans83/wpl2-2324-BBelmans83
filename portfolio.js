@@ -28,121 +28,13 @@ const werken = [
         type: 'Photoshop',
         imgPath: 'pho07.png'
     },{
-        werk: 'Social post',
+        werk: 'MockUp',
         type: 'Photoshop',
         imgPath: 'pho08.png'
     },{
-        werk: 'Social post',
+        werk: 'MockUp',
         type: 'Photoshop',
         imgPath: 'pho09.png'
-    },{
-        werk: 'MockUp',
-        type: 'Photoshop',
-        imgPath: 'pho10.png'
-    },{
-        werk: 'Social post',
-        type: 'Photoshop',
-        imgPath: 'pho11.png'
-    },{
-        werk: 'Social post',
-        type: 'Photoshop',
-        imgPath: 'pho12.png'
-    },{
-        werk: 'Social post',
-        type: 'Photoshop',
-        imgPath: 'pho13.png'
-    },{
-        werk: 'MockUp',
-        type: 'Photoshop',
-        imgPath: 'pho14.png'
-    },{
-        werk: 'MockUp',
-        type: 'Photoshop',
-        imgPath: 'pho15.png'
-    },{
-        werk: 'MockUp',
-        type: 'Photoshop',
-        imgPath: 'pho16.png'
-    },{
-        werk: 'MockUp',
-        type: 'Photoshop',
-        imgPath: 'pho17.png'
-    },{
-        werk: 'Social post',
-        type: 'Photoshop',
-        imgPath: 'pho18.png'
-    },{
-        werk: 'Social post',
-        type: 'Photoshop',
-        imgPath: 'pho19.png'
-    },{
-        werk: 'Social post',
-        type: 'Photoshop',
-        imgPath: 'pho20.png'
-    },{
-        werk: 'Social post',
-        type: 'Photoshop',
-        imgPath: 'pho21.png'
-    },{
-        werk: 'Social post',
-        type: 'Photoshop',
-        imgPath: 'pho22.png'
-    },{
-        werk: 'Social post',
-        type: 'Photoshop',
-        imgPath: 'pho23.png'
-    },{
-        werk: 'Social post',
-        type: 'Photoshop',
-        imgPath: 'pho24.png'
-    },{
-        werk: 'Social post',
-        type: 'Photoshop',
-        imgPath: 'pho25.png'
-    },{
-        werk: 'Social post',
-        type: 'Photoshop',
-        imgPath: 'pho26.png'
-    },{
-        werk: 'Social post',
-        type: 'Photoshop',
-        imgPath: 'pho27.png'
-    },{
-        werk: 'Social post',
-        type: 'Photoshop',
-        imgPath: 'pho28.png'
-    },{
-        werk: 'Social post',
-        type: 'Photoshop',
-        imgPath: 'pho29.png'
-    },{
-        werk: 'Social post',
-        type: 'Photoshop',
-        imgPath: 'pho30.png'
-    },{
-        werk: 'Social post',
-        type: 'Photoshop',
-        imgPath: 'pho31.png'
-    },{
-        werk: 'Social post',
-        type: 'Photoshop',
-        imgPath: 'pho32.png'
-    },{
-        werk: 'Social post',
-        type: 'Photoshop',
-        imgPath: 'pho33.png'
-    },{
-        werk: 'Social post',
-        type: 'Photoshop',
-        imgPath: 'pho34.png'
-    },{
-        werk: 'Social post',
-        type: 'Photoshop',
-        imgPath: 'pho35.png'
-    },{
-        werk: 'MockUp',
-        type: 'Photoshop',
-        imgPath: 'pho36.png'
     },{
         werk: 'Werkstuk 1',
         type: 'Illustrator',
@@ -226,11 +118,15 @@ const werken = [
     },{
         werk: 'Werkstuk 22',
         type: 'Illustrator',
-        imgPath: 'ill22.png'
+        imgPath: 'ill21.png'
     },{
         werk: 'Werkstuk 23',
         type: 'Illustrator',
         imgPath: 'ill23.png'
+    },{
+        werk: 'Werkstuk 24',
+        type: 'Illustrator',
+        imgPath: 'ill24.png'
     },{
         werk: 'Werkstuk 7',
         type: 'Divers',
@@ -249,6 +145,7 @@ const werken = [
         imgPath: 'Divers04.png'
     },
 ]
+
 let selector = document.getElementById('typeDropdown');
 let waardeSelector = 'Photoshop';
 
@@ -266,7 +163,6 @@ selector.addEventListener("change", ()=>{
     //document.getElementsByClassName('alleWerkenContainer')[0].remove();
     //functie aanmaken voor beter/overzichtelijke code
     addWerkenToDocument();
-
 });
 
 function getWerken(){
@@ -298,6 +194,7 @@ function getWerken(){
     }
     return werkenToShow;
 }
+
 function addWerkenToDocument() {
     let werkenToShow = getWerken();
 
@@ -322,6 +219,11 @@ function addWerkenToDocument() {
             textElement.innerHTML = `<h3>${werk.werk}</h3>`;
             afbeeldingElement.src = './assets/werken/' + werk.imgPath;
 
+            // Voeg de lichtbox-functionaliteit toe
+            afbeeldingElement.onclick = function() {
+                openLightbox(afbeeldingElement.src);
+            };
+
             individueleWerkenContainer.appendChild(textElement);
             individueleWerkenContainer.appendChild(afbeeldingElement);
 
@@ -330,3 +232,16 @@ function addWerkenToDocument() {
     });
 }
 
+// Open de lichtbox en stel de bron van de afbeelding in wanneer erop wordt geklikt
+function openLightbox(imgSrc) {
+    var lightbox = document.getElementById("lightbox");
+    var lightboxImg = document.getElementById("lightbox-img");
+    lightbox.style.display = "block";
+    lightboxImg.src = imgSrc;
+}
+
+// Sluit de lichtbox wanneer erop wordt geklikt
+function closeLightbox() {
+    var lightbox = document.getElementById("lightbox");
+    lightbox.style.display = "none";
+}
